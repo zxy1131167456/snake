@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 设置title前小图标 -->
+    <link rel="icon" href="img/title.ico" type="img/x-ico" />
+    <title>贪吃蛇小游戏v2.0</title>
+    <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/default.css"> -->
+    <link rel="stylesheet" href="snake.css">
+</head>
+
+<body>
+
+    <div class="htmleaf-container">
+
+        <canvas id="canvas"></canvas>
+
+    </div>
+    <div class="conent" id="conent">
+    </div>
+    <div class="start" id="start">
+    </div>
+    <div class="score">
+        得分：
+        <span id="score"></span>
+    </div>
+    <div class="restart" id="restart">
+        得分：<span id="scores"></span>
+        <button id="btn">再来一局</button>
+    </div>
+    <div class="stop" id="stop" title="暂停(您可以通过空格来控制暂停开始)"></div>
+    <div class="stop1" id="stop1" title="开始(您可以通过空格来控制暂停开始)"></div>
+    <div class="change">
+        <button id="btn1">1倍速<span>(龟速慎选)</span></button>
+        <button id="btn2">2倍速<span>(默认选中)</span></button>
+        <button id="btn3">3倍速<span>(超速慎选)</span></button>
+    </div>
+    <script src="snake.js"></script>
+</body>
+
+</html>
